@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Assesment</title>
+</head>
+<body>
+  <h1>Love Assesment</h1>
+  <form action="/letters.html">
+    <input type="checkbox" name="agree_tos" id="agree" />
+    <label for="agree">I agree to terms of service</label>
+    <p>
+      <h3>Do you believe in Love?</h3>
+      <label for="agree">Agree</label>
+      <input type="radio" name="love" id="agree" value="agree" />
+      <label for="nuetral">Nuetral</label>
+      <input type="radio" name="love" id="nuetral" value="nuetral" />
+      <label for="disagree">Disagree</label>
+      <input type="radio" name="love" id="disagree" value="disagree" />
+    </p>
+    <h3>What type of love fits your personality?</h3>
+    <label for="Love-style">Choose your style of love</label>
+    <select name="love" id="Love-style">
+      <option value="">--Please choose your style</option>
+      <option value="romatic">Romantic</option>
+      <option value="affectionate">Affectionate</option>
+      <option value="enduring">Enduring</option>
+      <option value="playful">Playful</option>
+      <option value="selfless">Selfless</option>
+      <option value="none">None of these</option>
+    </select>
+    <p>
+      <label for="love"> Rate the Love Recieved by your Partner</label>
+      <input type="range" name="love_level" id="love" min="1" max="100" step="10" value="50">
+    </p>
+    <p>
+      <label for="details">Add More Details</label>
+      <p>
+      <textarea name="details" id="details" cols="30" rows="10" placeholder="I feel like you should know more..."></textarea>
+      </p>
+    </p>
+    <p>
+      <button>Submit</button>
+    </p>
+   
+  </form>
+</body>
+</html>

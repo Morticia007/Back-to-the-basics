@@ -1,0 +1,44 @@
+h2 {
+  color: aquamarine;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+}
+
+p {
+  color: red;
+}
+
+h3 {
+  color: olive;
+}
+h5 {
+  color: rgb(216, 25, 171);
+}
+h6 {
+  color: rgb(500, 304, 100);
+  background-color: olivedrab;
+}
+
+span {
+  color: rgb(7, 80, 5);
+}
+
+div {
+  color: rgb(10, 100, 25);
+}
+body {
+  background-color: #000;
+}
+.tag {
+  background-color: rebeccapurple;
+  font-size: 50px;
+}
+li a {
+  color: teal;
+}
+header a {
+  color: rgb(209, 134, 209);
+}

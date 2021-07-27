@@ -42,3 +42,12 @@ li a {
 header a {
   color: rgb(209, 134, 209);
 }
+h1 + button {
+  background-color: tomato;
+}
+.button {
+  background-color: rgb(69, 78, 83);
+}
+div > section {
+  color: blue;
+}

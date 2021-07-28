@@ -27,10 +27,10 @@ span {
 }
 
 div {
-  color: rgb(10, 100, 25);
+  color: rgb(20, 22, 20);
 }
 body {
-  background-color: #000;
+  background-color: rgb(76, 90, 25);
 }
 .tag {
   background-color: rebeccapurple;
@@ -50,4 +50,19 @@ h1 + button {
 }
 div > section {
   color: blue;
+}
+section nav {
+  align-self: inherit;
+}
+input[type='username'] {
+  color: rgb(255, 13, 13);
+}
+a:hover {
+  color: rgb(108, 110, 231);
+}
+button:hover {
+  color: aquamarine;
+}
+.login:active {
+  background-color: rgb(13, 14, 12);
 }

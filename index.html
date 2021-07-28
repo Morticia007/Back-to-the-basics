@@ -8,18 +8,39 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/styles2.css" />
   </head>
-  <header>
-    <li>
-      <a href="home.html">Home</a>
-    </li>
-    <li>
-      <a href="about.html">About</a>
-    </li>
-    <li>
-      <a href="contact.html">Contact </a>
-    </li>
-  </header>
   <body>
+    <header>
+      <nav>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </nav>
+      <div>
+        <label for="search">Search</label>
+        <input type="text" placeholder="search" id="search" />
+      </div>
+      <div>
+        <label for="username">Username</label>
+        <input
+          class="username"
+          type="username"
+          placeholder="username"
+          id="username"
+        />
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password" />
+        <button class="login">Log in</button>
+      </div>
+      <div>
+        <button id="signup">Sign Up</button>
+      </div>
+    </header>
     <h4 style="color: blue">
       Inline style not best practice, but doesn't hurt to know for testing
       purposes
@@ -27,23 +48,19 @@
     <h1 style="color: cadetblue">CSS Fun</h1>
     <button>Press me!</button>
     <button class="button">Click Me!</button>
-
     <h2>this is an h2 element</h2>
     <h2>this is also an h2 element</h2>
     <h2>yet another h2 element</h2>
-
     <button>button 1</button>
     <button>button 2</button>
     <button>button 3</button>
     <p class="tag">this is a paragraph</p>
     <p class="tag">this is a paragraph</p>
     <p class="tag">this is a paragraph</p>
-
-    <p id="otherh3" , style="color: orange">this is an orange p</p>
+    <p id="otherh3" style="color: orange">this is an orange p</p>
     <h3>h3</h3>
     <h3>h3</h3>
     <h3>h3</h3>
-
     <h5>rgb</h5>
     <h6>rgb</h6>
     <span>rgb</span>
@@ -64,7 +81,6 @@
     </script>
     <br />
     <span class="tag">this is another span</span>
-
     <div>
       <ul>
         <li>
@@ -74,12 +90,11 @@
           <a href="#345adas">/u/gooner4lyfe</a>
         </li>
         <li>
-          <a href="#981adas">/u/dogfan </a>
+          <a href="#981adas">/u/dogfan</a>
         </li>
       </ul>
       <section>This is a section</section>
     </div>
   </body>
-
   <footer></footer>
 </html>
